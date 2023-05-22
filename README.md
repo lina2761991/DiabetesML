@@ -13,7 +13,7 @@ and then use <br/>
 python manage.py runserver
 
 I used vscode as an IDE and anaconda to run the jupyer notebook <br/>
-Those are screenshots of how to application appears to the user
+Those are screenshots of how the application appears to the user
 
 The Home Page
 
