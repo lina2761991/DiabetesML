@@ -8,8 +8,12 @@ pip3 install matplotlib <br/>
 pip3 install seaborn <br/>
 pip3 install virtualenv <br/>
 
+Make sure you update the location of the "diabetes.csv" on the file "views.py" according to your location and then use <br/>
+
+python manage.py runserver
+
 I used vscode as an IDE and anaconda to run the jupyer notebook <br/>
-Those are screenshots of how to application appears to the user
+Those are screenshots of how the application appears to the user
 
 The Home Page
 
