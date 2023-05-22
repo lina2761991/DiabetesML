@@ -12,8 +12,15 @@ I used vscode as an IDE and anaconda to run the jupyer notebook <br/>
 Those are screenshots of how to application appears to the user
 
 The Home Page
-![Uploading Screenshot 2023-05-22 150105.png…]()
+
+![Screenshot 2023-05-22 150105](https://github.com/lina2761991/DiabetesML/assets/32225041/aabe5005-6e37-42cb-9ed6-ad61f1e09a99)
+
+
 
 The Prediction Page
-![Uploading Screenshot 2023-05-22 150132.png…]()
+
+![Screenshot 2023-05-22 150132](https://github.com/lina2761991/DiabetesML/assets/32225041/cf5dfc9d-8367-4b5d-a741-aeb581f0ec71)
+
+
+
 
