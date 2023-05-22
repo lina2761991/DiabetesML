@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -29,10 +29,11 @@ def result(request):
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=split_test_size, random_state=42)
     # test_size = 0.3 is 30%, 42 is the answer to everything
-    # create Gaussian Naive Bayes model object and train it with the data
-    nb_model = GaussianNB()
+    
+    
+    svm_model = SVC(kernel='linear', C=1, random_state=42)
 
-    nb_model.fit(X_train, y_train.ravel())
+    svm_model.fit(X_train, y_train.ravel())
 
     val1 = float(request.GET['n1'])
     val2 = float(request.GET['n2'])
@@ -43,7 +44,7 @@ def result(request):
     val7 = float(request.GET['n7'])
     val8 = float(request.GET['n8'])
 
-    pred = nb_model.predict([[val1,val2,val3,val4,val5,val6,val7,val8]])
+    pred = svm_model.predict([[val1,val2,val3,val4,val5,val6,val7,val8]])
     result1 = ""
     if pred == [1]:
         result1 = "Positive"
