@@ -8,6 +8,10 @@ pip3 install matplotlib <br/>
 pip3 install seaborn <br/>
 pip3 install virtualenv <br/>
 
+and then use <br/>
+
+python manage.py runserver
+
 I used vscode as an IDE and anaconda to run the jupyer notebook <br/>
 Those are screenshots of how to application appears to the user
 
